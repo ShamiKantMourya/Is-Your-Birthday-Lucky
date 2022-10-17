@@ -1,0 +1,19 @@
+body{
+    background-color: #5451A6;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+.dob{
+    text-align: center;
+}
+.luckyno{
+    text-align: center;
+}
+.birthday{
+    text-align: center;
+}
