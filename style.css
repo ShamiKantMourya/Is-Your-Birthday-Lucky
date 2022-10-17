@@ -1,32 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
-body{
+
+body {
     background-color: #5451A6;
     font-family: 'Poppins', sans-serif;
 }
-.heading{
+
+.border {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin: 5% 25%;
+}
+
+.heading {
     text-align: center;
     color: #fff;
-    margin-top: 15%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-weight: bold;
 }
-.dob{
+
+.dob {
     text-align: center;
     font-weight: bold;
     margin: 2.5rem;
 }
-.luckyno{
+
+.luckyno {
     text-align: center;
     font-weight: bold;
     margin: 2.5rem;
 }
-.birthday{
+
+.birthday {
     text-align: center;
 }
-#dateofbirth, #luckynumber{
+
+#dateofbirth {
     font-weight: bold;
+    border-radius: 5px;
 }
-#btn{
+
+#luckynumber {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#btn {
     background-color: #fff;
     color: #5451A6;
     padding: 8px 12px;
@@ -35,10 +55,12 @@ body{
     margin-top: 1rem;
     margin-bottom: 2.5rem;
 }
-#textarea{
+
+#textarea {
     border: 2px solid #fff;
     border-radius: 5px;
     height: 4rem;
     width: 16rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
