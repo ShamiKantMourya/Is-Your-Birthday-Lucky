@@ -14,7 +14,10 @@ function checkLuck(sum, luckyNumber) {
 function isYourBirthdayLucky() {
     const birthDate = dateOfBirth.value;
     const sum = calculateSumOfDateOfBirth(birthDate);
+    if(sum&&dateOfBirth)
     checkLuck(sum, luckyNumber.value);
+    else
+    textArea.innerText = "please fill both the fields";
 }
 
 function calculateSumOfDateOfBirth(birthDate) {
