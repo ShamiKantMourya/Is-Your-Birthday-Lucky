@@ -7,15 +7,38 @@ body{
     text-align: center;
     color: #fff;
     margin-top: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     font-weight: bold;
 }
 .dob{
     text-align: center;
+    font-weight: bold;
+    margin: 2.5rem;
 }
 .luckyno{
     text-align: center;
+    font-weight: bold;
+    margin: 2.5rem;
 }
 .birthday{
     text-align: center;
+}
+#dateofbirth, #luckynumber{
+    font-weight: bold;
+}
+#btn{
+    background-color: #fff;
+    color: #5451A6;
+    padding: 8px 12px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+#textarea{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    height: 4rem;
+    width: 16rem;
+    font-weight: bold;
 }
